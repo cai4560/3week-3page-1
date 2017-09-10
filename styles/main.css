@@ -1,8 +1,8 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-family: 'Open Sans', serif;
+    font-size: 20px;
+    margin: 0;
 }
-
 
 .header {
     height: 100px;
@@ -25,14 +25,14 @@ body {
     padding: 0 20px;
 }
 
-.header ul li{
+.header ul li {
     display: inline;
     padding: 0 20px;
     line-height: 100px;
     color: #d8d6d5;
 }
 
-.header .donate{
+.header .donate {
     display: inline;
     margin-left: 20px;
     width: 150px;
@@ -43,10 +43,225 @@ body {
 }
 
 .container {
-    display: none;
+    text-align: center;
+}
+
+.container ul {
+    padding: 0;
+}
+
+.container .theme {
+    height: 794px;
+    background: url(../images/hero.png) round;
+    font-family: 'Amatic SC', cursive;
+}
+
+.container .theme-inner {
+    height: inherit;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.container .theme h1 {
+    display: inline-block;
+    margin-top: 300px;
+    font-size: 60px;
+    color: white;
+}
+
+.container .theme button {
+    width: 270px;
+    height: 60px;
+    font-size: 24px;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    margin-top: 50px;
+    border: 1px solid #fff;
+}
+
+.container .theme button:first-child {
+    background: transparent;
+    margin-right: 30px;
+}
+
+.container .theme button:last-child {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.container li {
+    list-style: none;
+}
+
+.container .section {
+    color: #fcf9f4;
+}
+
+.container .section h2 {
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-size: 52px;
+    margin: 170px 0 0 0;
+    display: inline-block;
+}
+
+.container img {
+    display: inline-block;
+    height: 330px;
+    margin-top: 170px;
+}
+
+.container .section button {
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 200px;
+    font-size: 20px;
+}
+
+.container .section span {
+    display: block;
+    margin: 32px 0;
+}
+
+.container .mission h2 {
+    margin-top: 150px;
+    color: #4d4e59;
+}
+
+.container .mission button {
+    background-color: #ffcd62;
+    color: #636471;
+}
+
+.container .mission span {
+    padding: 0 350px;
+    color: #636471;
+}
+
+.container .students {
+    background-color: #91d0b1;
+}
+
+.container .students img {
+    float: left;
+    margin-left: 300px;
+    margin-right: 120px;
+    display: inline-block;
+}
+
+.container .students-content {
+    text-align: left;
+}
+
+.container .students-content button {
+    color: white;
+    background: #85b99f;
+}
+
+.container .students-content span {
+    margin-right: 300px;
+}
+
+.container .tutors {
+    background-color: #ffcd62;
+}
+
+.container .tutors img {
+    float: right;
+    margin-left: 120px;
+    margin-right: 300px;
+}
+
+.container .tutors-content {
+    margin-left: 300px;
+    text-align: left;
+}
+
+.container .tutors-content button {
+    color: white;
+    background: #eabc5b;
+}
+
+.container .partners {
+    background-color: #80a8cc;
+}
+
+.container .partners img {
+    float: left;
+    margin-left: 300px;
+    margin-right: 120px;
+    display: inline-block;
+}
+
+.container .partners-content {
+    text-align: left;
+}
+
+.container .partners-content button {
+    color: white;
+    background: #6d91b1;
+}
+
+.container .partners-content span {
+    margin-right: 300px;
+}
+
+.container .progress {
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.container .progress h2 {
+    color: #909094;
+    font-size: 52px;
+    margin: 170px 0 80px 0;
+    font-family: 'Amatic SC', cursive;
+}
+
+.container .progress li {
+    display: inline-block;
+    max-height: 350px;
+    border: 1px solid gray;
+    padding: 100px 85px;
+}
+
+.container .progress .figure {
+    display: block;
+    font-size: 72px;
+    margin-bottom: 20px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.container .progress .desc {
+    display: block;
+    font-size: 16px;
+}
+
+.container .progress .hours-tutored {
+    margin-left: 218px;
+    color: #91d0b1;
+}
+
+.container .progress .session-tutored {
+    margin: 0 30px;
+    color: #ffcd62;
+}
+
+.container .progress .volunteer-tutored {
+    margin-right: 218px;
+    color: #80a8cc;
 }
 
 .footer {
-    display: none;
+    background-color: #4d4e59;
+    height: 100px;
+}
+
+.footer span {
+    display: block;
+    text-align: center;
+    line-height: 100px;
+    color: #d4d2d0;
+    font-size: 16px;
 }
 
